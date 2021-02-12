@@ -1,0 +1,36 @@
+<html> 
+    <head><title>Calcular area de un octagono usando la longitud de sus lado</title></head>
+        <body>
+
+            <style>
+                .fondo{
+                    background-image: url('octo.png');
+                    height: 100%;
+                }
+                h1{padding-top: 5%;
+                    color: navy;}
+                td{color:rgb(197, 22, 22);}
+                input{background-color: rgb(121, 181, 241);}
+                table{  border-color: navy;}
+                </style>
+            <div class="fondo">
+            <h1 align="center">Calculo de area del octagono</h1>
+            <br><br>
+            <form method="post" action="exe.php"> 
+                <table border="10"align="center">
+                    <tr>
+            <td>tamano del lado:</td>
+            <td><input type="text"name="lado"></td>
+                    </tr>
+                   
+                </table>
+                <table align ="center">
+                    <tr>
+                        <td><input type ="submit" name ="btn" value = "calcular" ></td>
+                        <td align= "center" ><input type="reset" name="limpiar" value= "limpiar"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </body>
+        </html>
